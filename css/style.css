@@ -26,13 +26,13 @@
             font-size: 65px;
         }
         .kort {
-            background-color: #74e274;
+            background-color: #0a850a;
             margin: 15px auto;
             position: relative;
         }
         .leftRocket, .rightRocket{
             width: 7px;
-            background-color: #6d6969;
+            background-color: #1900ff;
             position: absolute;
         } 
         .rightRocket{
