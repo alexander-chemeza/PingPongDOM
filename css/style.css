@@ -1,0 +1,60 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 200px;
+            margin: auto;
+        }
+        .start{
+            width: 100px;
+            height: 40px;
+            display: block;
+            margin: 20px auto 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .score{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+        }
+        .score p{
+            font-size: 65px;
+        }
+        .kort {
+            background-color: #74e274;
+            margin: 15px auto;
+            position: relative;
+        }
+        .leftRocket, .rightRocket{
+            width: 7px;
+            background-color: #6d6969;
+            position: absolute;
+        } 
+        .rightRocket{
+            right: 0;
+        }
+        .grid{
+            width: 3px;
+            height: 100%;
+            background-color: white;
+            margin: 0 auto;
+        }
+        .ball{
+            border-radius: 8px;
+            background-color: #b1b1b1;
+            position: absolute;
+            border: 5px solid #f5f50c;
+        }
+        .count{
+            position: absolute;
+            font-size: 100px;
+            z-index: 100;
+            text-align: center;
+            padding-top: 50px;
+            visibility: hidden;
+        }
